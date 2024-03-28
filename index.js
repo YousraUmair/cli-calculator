@@ -1,4 +1,4 @@
-// importing inquirer
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let loop = true;
 while (loop) {
@@ -50,7 +50,7 @@ while (loop) {
     });
     if (!calculateMore.more) {
         loop = false;
-        console.log(`\nThank you for watching for video`);
+        console.log(`\nmake a first cli calculator with inquirer libery`);
     }
 }
 // for some advance features watch the video
